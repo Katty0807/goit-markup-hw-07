@@ -31,6 +31,10 @@ button {
   font-family: inherit;
 }
 
+.visibility-title {
+  visibility: hidden;
+}
+
 body {
   color: #212121;
   font-family: Roboto, sans-serif;
@@ -206,10 +210,6 @@ header {
   background-color: #188ce8;
 }
 
-.visibility-title {
-  visibility: hidden;
-}
-
 .benefits {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -264,17 +264,6 @@ header {
 
 .work {
   padding-top: 0;
-}
-
-.work-title,
-.team-title,
-.clients-title {
-  margin-bottom: 50px;
-  color: #212121;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
 }
 
 .works {

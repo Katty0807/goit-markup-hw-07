@@ -28,3 +28,16 @@ a {
 button {
   font-family: inherit;
 }
+
+.visibility-title {
+  visibility: hidden;
+}
+.title {
+  margin-bottom: 50px;
+
+  color: $primary-text-color;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
