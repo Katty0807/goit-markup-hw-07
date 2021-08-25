@@ -322,11 +322,11 @@ header {
           align-items: center;
 }
 
-.social-link .footer {
+.social-link--footer {
   margin-top: 20px;
 }
 
-.social-link.list:not(:first-child) {
+.social-link_list:not(:first-child) {
   margin-left: 10px;
 }
 
@@ -347,16 +347,16 @@ header {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-link_icon .footer-bg {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-
 .social-link_icon:hover {
   background-color: #2196f3;
 }
 
 .social-link_icon:hover .social-link_logo {
   fill: #ffffff;
+}
+
+.social-link_icon--footer-bg {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .social-link_logo {
