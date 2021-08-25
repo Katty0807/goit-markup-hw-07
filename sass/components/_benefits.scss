@@ -1,0 +1,43 @@
+.visibility-title {
+  visibility: hidden;
+}
+
+.benefits {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.benefits_item {
+  width: 270px;
+}
+
+.benefits_item:not(:first-child) {
+  margin-left: 30px;
+}
+.benefits_icon {
+  width: 270px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+.benefits_icon .icon {
+  fill: $primary-text-color;
+}
+.benefits_title {
+  color: $primary-text-color;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  margin-bottom: 10px;
+}
+
+.benefits_text {
+  color: $secondary-color;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}

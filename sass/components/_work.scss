@@ -1,0 +1,45 @@
+.work {
+  padding-top: 0;
+}
+.work-title,
+.team-title,
+.clients-title {
+  margin-bottom: 50px;
+
+  color: $primary-text-color;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.works {
+  display: flex;
+  flex-wrap: wrap;
+}
+.works_item {
+  width: 370px;
+  position: relative;
+}
+.works_item:not(:first-child) {
+  margin-left: 30px;
+}
+
+.works_label {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 370px;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+
+  padding-top: 26px;
+  padding-bottom: 26px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: $white-color;
+}
