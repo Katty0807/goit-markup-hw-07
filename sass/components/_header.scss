@@ -79,7 +79,6 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: color 2500ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover,
   &:focus {
@@ -89,7 +88,7 @@ header {
 .auth-nav_icon {
   margin-right: 10px;
   fill: $secondary-color;
-  transition: fill 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .auth-nav_link:hover .auth-nav_icon {

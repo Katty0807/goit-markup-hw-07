@@ -174,7 +174,9 @@ header {
 
 .auth-nav_icon {
   margin-right: 10px;
-  fill: #212121;
+  fill: #757575;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .auth-nav_link:hover .auth-nav_icon {
